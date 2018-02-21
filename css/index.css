@@ -1,0 +1,58 @@
+.main{
+	width:270px;
+	border:1px solid #000;
+}
+.action{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 14px;
+	border-bottom: 1px solid #000
+}
+.action>div{
+	padding:10px 0;
+	flex: 1;
+	text-align: center;
+	cursor: pointer;
+}
+.action>div:nth-of-type(3){
+	flex: 3;
+}
+.action>div>i{
+	font-size: 24px;
+}
+.week{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.week>div{
+	padding:10px 0;
+	flex: 1;
+	text-align: center;
+}
+.month-wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.month-wrap>div{
+	width:calc(100% / 7);
+	padding:10px 0;
+	text-align: center;
+	cursor: pointer;
+}
+.month-wrap>div:hover{
+	background-color: #efefef;
+}
+.now-index{
+	background-color: #009688;
+	color:#fff;
+}
+.now-index:hover{
+	background-color: #009688 !important;
+}
+.before,.after{
+	color:#999;
+}
